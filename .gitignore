@@ -1,0 +1,34 @@
+# ---- Generated experiment outputs ----
+# The results/ folder is produced by running the tool; it is not source.
+# Regenerate it with `python3 snn_cnn_lab.py`.
+results/
+
+# ---- Dataset ----
+# The MNIST idx files are large and freely downloadable; keep them out of git.
+# See the README for how to obtain them into "MNIST Dataset/".
+MNIST Dataset/
+*.idx1-ubyte
+*.idx3-ubyte
+*-ubyte
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Editors / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- Tooling ----
+.claude/

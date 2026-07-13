@@ -1,0 +1,15 @@
+# Core dependencies for snn_cnn_lab.py
+torch>=2.0
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+
+# Optional: only used to record the torchvision version in the methodology
+# report for reproducibility. The tool loads MNIST directly from raw idx files
+# and does not require torchvision to run.
+# torchvision>=0.15
+
+# Tkinter is used for the optional GUI. It ships with the standard CPython
+# installer on Windows and macOS. On Debian/Ubuntu install it with:
+#   sudo apt-get install python3-tk
+# The command-line mode (--headless / --study) does not need Tkinter.
